@@ -49,5 +49,5 @@ app.post("/render-view", function(req, res){
 // STARTING UP THE SETUP
 // ======================
 app.listen(4400, function(){
-	console.log("Server running at http://localhost:4400/");
+	console.log("Server running at url http://localhost:4400/ ");
 });
