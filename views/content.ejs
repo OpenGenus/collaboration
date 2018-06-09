@@ -5,31 +5,29 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 
-$(document).ready(function(){
-	alert("hi");
-    $("button").click(function(){
-        $("p").slideToggle();
-    });
-    document.getElementById("demo").innerHTML = "Paragraph changed!";
-    document.getElementsByTagName("p").innerHTML = "Hello World!";
+// $(document).ready(function(){
+// 	alert("hi");
+//     $("button").click(function(){
+//         $("p").slideToggle();
+//     });
+//     document.getElementById("demo").innerHTML = "Paragraph changed!";
+//     document.getElementsByTagName("p").innerHTML = "Hello World!";
     
-    // console.log(content);
-    var test = document.getElementsByClassName('test');
-    var testValue = test[0].dataset.testValue;
-    alert(testValue);
-    document.getElementById("conta").innerHTML = testValue;
-});
+//     // console.log(content);
+//     var test = document.getElementsByClassName('test');
+//     var testValue = test[0].dataset.testValue;
+//     alert(testValue);
+//     document.getElementById("conta").innerHTML = testValue;
+// });
 </script>
 </head>
 <body>
-	<iframe width="420" height="315" src="http://stackoverflow.com/questions" frameborder="0" allowfullscreen></iframe>
 	<!-- <div> 
     <object type="text/html" data="https://www.youtube.com/" width="800px" height="600px" style="overflow:auto;border:5px ridge blue">
     </object>
  </div> -->
 <p id="demo">This is a paragraph.</p>
-<div class='test' data-test-value='<%= JSON.stringify(contentLoad) %>'></div>
-<button>Toggle between slide up and slide down for a p element</button>
+<button><%= darthVader %></button>
 <div id="conta"></div>
 
 </body>
